@@ -2,6 +2,10 @@ Website
 ======================
 http://travistidwell.com/jsencrypt
 
+Important
+======================
+After running `npm run build`, add `typeof window !== 'undefined' ? window : undefined` to `bin/jsencrypt.js` around line 18.
+
 Introduction
 ======================
 When browsing the internet looking for a good solution to RSA Javascript
